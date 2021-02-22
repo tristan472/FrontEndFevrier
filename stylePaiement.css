@@ -1,0 +1,144 @@
+.paiement{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 	25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.paiement h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  color: #0d3c61;
+}
+
+.form .label{
+  display: block;
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.input{
+  padding: 13px 0px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  outline: none;
+  font-size: 16px;
+  color: #555555;
+}
+
+.card-grp{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-item{
+  width: 48%;
+}
+
+.space{
+  margin-bottom: 20px;
+}
+
+.icon-relative{
+  position: relative;
+}
+
+.icon-relative .fas,
+.icon-relative .far{
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 20px;
+  color: #555555;
+}
+
+.btn{
+  width: 250px;
+  margin-top: 40px;
+  background: #2196F3;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card{
+	background: none !important;
+	border: none !important;
+}
+
+@media screen and (max-width: 420px){
+  .card-grp{
+    flex-direction: column;
+  }
+  .card-item{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .btn{
+    margin-top: 20px;
+  }
+} 
+
+
+.bordure-bas{
+    border-bottom: solid 5px orange;
+}
+
+.bordure-footer{
+  border-top: solid 1px black;
+}
+
+hr{
+    border-top: solid 1px grey;
+    margin: 0;
+}
+
+.border-warning{
+    border-width: 10em;
+}
+
+.btn-primary-o{
+    background: orange;
+}
+
+.slick-slide{
+  margin: 0 20px;
+  transform: scale(0.8);
+}
+
+.slick-current{
+  transform: scale(1);
+}
+.btn-outline-success{
+  color: orange;
+  border-color: orange;
+}
+
+footer{
+  grid-area: footer;
+  width:100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+a{
+  color: orange;
+  text-decoration: none !important;
+}
+
+.margin-ci{
+  margin: 15% auto 15%;
+  margin-bottom: 30em;
+}
+

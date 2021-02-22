@@ -1,0 +1,203 @@
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container > h1{
+	padding: 20px 0;
+}
+
+.panier{
+	display: flex;
+}
+
+.produits{
+	flex: 0.75;
+}
+
+.produit{
+	display: flex;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	border: 1px solid silver;
+	margin-bottom: 20px;
+}
+
+.produit:hover{
+	border: none;
+	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	transform: scale(1.01);
+}
+
+.produit > img{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.produit > img:hover{
+	transform: scale(1.04);
+}
+
+.produitInfo{
+	padding: 20px;
+	width: 100%;
+	position: relative;
+
+}
+
+.produitNom, .produitPrix{
+	margin-bottom: 20px;
+}
+
+.produitSupprimer{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 25px;
+	background-color: green;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.produitSupprimer:hover{
+	background-color: white;
+	color: green;
+	font-weight: 600;
+	border: 1px solid green
+}
+
+.produitQuantité > input{
+	width: 40px;
+	padding: 5px;
+	text-align: center;
+}
+
+.fa{
+	margin-right: 5px;
+}
+
+.panierTotal{
+	flex: 0.25;
+	margin-left: 20px;
+	padding: 20px;
+	height: 240px;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+
+.panierTotal p{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	font-size: 	20px;
+}
+
+.panierTotal a{
+	display: block;
+	text-align: center;
+	height: 40px;
+	line-height: 40px; 
+	background-color: orange;
+	color: white;
+	text-decoration: none;
+}
+
+.panierTotal a:hover{
+	background-color: red;
+}
+
+@media screen and (max-width: 700px){
+	.supprimer{
+		display: none;
+	}
+	.produit{
+		height: 150px;
+	}
+	.produit > img{
+		height: 150px;
+		width: 200px;
+	}
+	.produitNom, .produitPrix{
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.panier{
+		flex-direction: column;
+	}
+	.panierTotal{
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 1220px){
+	.container{
+		max-width: 95%;
+	}
+}
+
+
+
+
+
+
+
+
+
+.bordure-bas{
+    border-bottom: solid 5px orange;
+}
+
+.bordure-footer{
+  border-top: solid 1px black;
+}
+
+hr{
+    border-top: solid 1px grey;
+    margin: 0;
+}
+
+.border-warning{
+    border-width: 10em;
+}
+
+.btn-primary-o{
+    background: orange;
+}
+
+.slick-slide{
+  margin: 0 20px;
+  transform: scale(0.8);
+}
+
+.slick-current{
+  transform: scale(1);
+}
+.btn-outline-success{
+  color: orange;
+  border-color: orange;
+}
+
+footer{
+  grid-area: footer;
+  width:100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+a{
+  color: orange;
+  text-decoration: none !important;
+}
+
+.margin-ci{
+  margin: 15% auto 15%;
+  margin-bottom: 30em;
+}
+
+

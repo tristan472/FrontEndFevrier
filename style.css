@@ -1,0 +1,167 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.formulaireInscription {
+
+  top: auto; left: auto;
+  background: #f8f9fa;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #333;
+  padding: 15px;
+  margin: 60px auto;
+}
+
+.formulaireConnexion {
+
+  background: #f8f9fa;
+  width: auto;
+  border-radius: 5px;
+  box-shadow: 3px 3px 10px #333;
+  padding: 20px;
+  margin:auto;
+  text-align: center;
+}
+
+.formulaireConnexion input {
+  border: solid 5px orange;
+  font-size: 16px;
+  padding: 5px 10px;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formulaireConnexionTitre {
+  padding-top: 15px;
+}
+
+.entree{
+    background: transparent;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+.produits {
+  margin-top: 35px;
+}
+
+.newarrival {
+  background: green;
+  width: 70px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.prix {
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+
+.input {
+  background: #FE980F;
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.banniere{
+    background: url("img/bannière-velo-electrique.png");
+    position: relative;
+}
+
+.milieu{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bordure-bas{
+    border-bottom: solid 5px orange;
+}
+
+.bordure-footer{
+  border-top: solid 1px black;
+}
+
+hr{
+    border-top: solid 1px grey;
+    margin: 0;
+}
+
+.border-warning{
+    border-width: 10em;
+}
+
+.btn-primary-o{
+    background: orange;
+}
+
+@media(max-width: 800px) {
+    .titre{
+        font-size: 1rem;
+    }
+}
+
+
+.slick-slide{
+  margin: 0 20px;
+  transform: scale(0.8);
+}
+
+.slick-current{
+  transform: scale(1);
+}
+.btn-outline-success{
+  color: orange;
+  border-color: orange;
+}
+
+footer{
+  grid-area: footer;
+  width:100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+a{
+  color: orange;
+  text-decoration: none !important;
+}
+
+.margin-ci{
+  margin: 15% auto 15%;
+  margin-bottom: 30em;
+}
+
+
+
+
+.menuDéroulant {
+  padding-left: 35px;
+  width: 200px;
+  height: 150px;
+  overflow-y: auto;
+}
+
+.menuDéroulant a {
+  background-color: orange;
+  color: red;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.menuDéroulant a:hover {
+  background-color: yellow;
+}
+
+.menuDéroulant {
+  background-color: transparent;
+  color: white;
+}

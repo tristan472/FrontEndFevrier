@@ -1,0 +1,77 @@
+.éditerProfile{
+  background: #f8f8f8;
+  max-width: 360px;
+  margin: 80px auto;
+  height: auto;
+  padding: 35px;
+  padding-top: 	25px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.éditerProfileTitre{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.avatar {
+    height: 200px;
+    width: 200px;
+}
+
+
+
+
+
+.bordure-bas{
+    border-bottom: solid 5px orange;
+}
+
+.bordure-footer{
+  border-top: solid 1px black;
+}
+
+hr{
+    border-top: solid 1px grey;
+    margin: 0;
+}
+
+.border-warning{
+    border-width: 10em;
+}
+
+.btn-primary-o{
+    background: orange;
+}
+
+.slick-slide{
+  margin: 0 20px;
+  transform: scale(0.8);
+}
+
+.slick-current{
+  transform: scale(1);
+}
+.btn-outline-success{
+  color: orange;
+  border-color: orange;
+}
+
+footer{
+  grid-area: footer;
+  width:100%;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+a{
+  color: orange;
+  text-decoration: none !important;
+}
+
+.margin-ci{
+  margin: 15% auto 15%;
+  margin-bottom: 30em;
+}
+
+
